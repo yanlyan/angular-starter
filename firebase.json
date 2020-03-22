@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "idp-groove-frontend",
+      "public": "dist/idp-groove-frontend",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
